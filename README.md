@@ -1,5 +1,5 @@
 # qwebs-nodemailer
-> Send e-mail with [nodemailer](https://www.npmjs.com/package/nodemailer) for your [Qwebs server](https://www.npmjs.com/package/qwebs).
+Use [nodemailer](https://www.npmjs.com/package/nodemailer) to send email from your [Qwebs server](https://www.npmjs.com/package/qwebs).
 
 ## Features
 
@@ -15,16 +15,16 @@
     "transport": {
       "service": "service name",
       "auth": {
-            "user": "user",
-            "pass": "password"
-        }
+        "user": "user",
+        "pass": "password"
+      }
     }
-		"dkim": {
-			"domainName": "your domain.com",
-			"keySelector": "123456",
+    "dkim": {
+      "domainName": "your domain.com",
+      "keySelector": "123456",
       "privateKey": "./key.pem"
-		},
-		"from": "your e-mail address"
+    },
+    "from": "your e-mail address"
 }
 ```
 
