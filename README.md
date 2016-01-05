@@ -18,7 +18,7 @@ Use [nodemailer](https://www.npmjs.com/package/nodemailer) to send email from yo
         "user": "user",
         "pass": "password"
       }
-    }
+    },
     "dkim": {
       "domainName": "your domain.com",
       "keySelector": "123456",
