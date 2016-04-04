@@ -1,11 +1,11 @@
 {
     "name": "qwebs-nodemailer",
-    "version": "0.0.55",
+    "version": "0.0.56",
     "description": "Send e-mail with nodemailer for Qwebs server.",
     "main": "index.js",
     "dependencies": {
         "q": "latest",
-        "qwebs": "^0.0.55",
+        "qwebs": "^0.0.56",
         "nodemailer-smtp-pool": "latest",
         "nodemailer": "latest",
         "nodemailer-dkim": "latest"
