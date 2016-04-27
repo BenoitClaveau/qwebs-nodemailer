@@ -31,8 +31,8 @@ Use [nodemailer](https://www.npmjs.com/package/nodemailer) to send email from yo
 ### Declare and inject $mailer
 
 ```js
-var Qwebs = require("qwebs");
-var qwebs = new Qwebs();
+const Qwebs = require("qwebs");
+const qwebs = new Qwebs();
 
 qwebs.inject("$mailer", "qwebs-nodemailer");
 ```
@@ -42,7 +42,7 @@ qwebs.inject("$mailer", "qwebs-nodemailer");
   * send(mailerOptions)
   
 ```js
-var mailOptions = {
+let mailOptions = {
     from: 'Fred Foo ✔ <foo@blurdybloop.com>', // sender address 
     to: 'bar@blurdybloop.com, baz@blurdybloop.com', // list of receivers 
     subject: 'Hello ✔', // Subject line 
