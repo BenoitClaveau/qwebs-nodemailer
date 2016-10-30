@@ -1,10 +1,10 @@
 {
     "name": "qwebs-nodemailer",
-    "version": "0.1.39",
+    "version": "0.1.40",
     "description": "Send e-mail with nodemailer for Qwebs server.",
     "main": "index.js",
     "dependencies": {
-        "qwebs": "^0.1.39",
+        "qwebs": "^0.1.40",
         "nodemailer-smtp-pool": "latest",
         "nodemailer": "latest",
         "nodemailer-dkim": "latest"
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/beny78/qwebs-nodemailer.git"
+        "url": "https://github.com/BenoitClaveau/qwebs-nodemailer.git"
     },
     "keywords": [
         "nodemailer",
@@ -26,11 +26,11 @@
     ],
     "author": {
         "name": "Benoît Claveau",
-        "email": "beny78@gmail.com"
+        "email": "benoit.claveau@gmail.com"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/beny78/qwebs-nodemailer/issues"
+        "url": "https://github.com/BenoitClaveau/qwebs-nodemailer/issues"
     },
-    "homepage": "https://github.com/beny78/qwebs-nodemailer"
+    "homepage": "https://github.com/BenoitClaveau/qwebs-nodemailer"
 }
