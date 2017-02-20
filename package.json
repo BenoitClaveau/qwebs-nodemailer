@@ -7,7 +7,8 @@
         "qwebs": "^0.1.74",
         "nodemailer-smtp-pool": "2.8.2",
         "nodemailer": "2.4.0",
-        "nodemailer-dkim": "1.0.4"
+        "nodemailer-dkim": "1.0.4",
+        "nodemailer-html-to-text": "2.1.0"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
