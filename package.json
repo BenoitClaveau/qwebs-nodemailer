@@ -1,14 +1,13 @@
 {
     "name": "qwebs-nodemailer",
-    "version": "0.2.18",
+    "version": "1.0.0-beta.0",
     "description": "Send e-mail with nodemailer for Qwebs server.",
     "main": "index.js",
     "dependencies": {
-        "qwebs": "^0.2.18",
-        "nodemailer-smtp-pool": "2.8.2",
-        "nodemailer": "2.4.0",
-        "nodemailer-dkim": "1.0.4",
-        "nodemailer-html-to-text": "2.1.0"
+        "qwebs": "^1.0.0-beta.18",
+        "oups": "latest",
+        "nodemailer": "latest",
+        "nodemailer-html-to-text": "latest"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,8 +21,7 @@
         "mailer",
         "email",
         "e-mail",
-        "qwebs",
-        "promises"
+        "qwebs"
     ],
     "author": {
         "name": "Benoît Claveau",
