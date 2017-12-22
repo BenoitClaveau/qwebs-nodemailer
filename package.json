@@ -1,6 +1,6 @@
 {
     "name": "qwebs-nodemailer",
-    "version": "1.0.0-beta.0",
+    "version": "1.0.0-beta.1",
     "description": "Send e-mail with nodemailer for Qwebs server.",
     "main": "index.js",
     "dependencies": {
